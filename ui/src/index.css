@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  /* background: #ececec; */
+  background: #b2beff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.DiplomaData table td {
+  padding: 0.2rem !important;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:link,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:visited,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:hover,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:active,
+.VIpgJd-yAWNEb-hvhgNd-IuizWc {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0px !important;
+  height: 0px !important;
+}
+
+@keyframes Toastify__slideInRight {
+  from {
+    /* transform: translate3d(110%, 0, 0); */
+    visibility: visible !important;
+    width: 0px !important;
+    height: 0px !important;
+    display: none !important;
+  }
+
+  to {
+    /* transform: translate3d(0, 0, 0); */
+    visibility: hidden !important;
+    width: 0px !important;
+    height: 0px !important;
+    display: none !important;
+  }
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd img {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.goog-te-gadget {
+  height: 1rem !important;
+  color: transparent !important;
+}
+
+.goog-te-combo {
+  margin: 0 !important;
+  display: flex;
+  align-items: center !important;
+  width: 60px;
+  font-size: 0.7rem !important;
+}
+
+/* .skiptranslate {
+
+} */
+
+#watermark {
+  position: relative;
+}
+
+#watermark::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#watermark {
+  background: url("/images/vender/watermark.jpg");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+.custom-heading {
+  letter-spacing: 2px;
+  word-spacing: 18px;
+}
+
+.fahkwang-bold {
+  font-family: "Fahkwang", sans-serif !important;
+  font-weight: 600 !important;
+}
